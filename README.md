@@ -1,1 +1,1 @@
-# Minimal Stripe Example
+# Minimal Stripe Subscription Example
