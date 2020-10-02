@@ -9,8 +9,8 @@
 
     <script type="text/javascript">
       // Create an instance of the Stripe object with your publishable API key
-      var stripe = Stripe('pk_test_51HXXKkF9Qh9qfP2f9aVMBp5YqrNfLViisPo5nGYEu4JRG0jXY3jLl7kFEhSlCAgKdXRif2uCHcdrdkwcMEpnBz9I00fwIk9P61');
-      var checkoutButton = document.getElementById('checkout-button');
+      const stripe = Stripe("pk_test_51HXXKkF9Qh9qfP2f9aVMBp5YqrNfLViisPo5nGYEu4JRG0jXY3jLl7kFEhSlCAgKdXRif2uCHcdrdkwcMEpnBz9I00fwIk9P61");
+      const checkoutButton = document.getElementById('checkout-button');
 
       checkoutButton.addEventListener('click', function() {
         // Create a new Checkout Session using the server-side endpoint you
